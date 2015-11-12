@@ -1,0 +1,4 @@
+#! /bin/bash
+
+NUM_SCREEN=$(xrandr -d :0 -q | grep ' connected' | wc -l)
+echo $NUM_SCREEN
